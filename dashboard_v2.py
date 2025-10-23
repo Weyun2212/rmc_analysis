@@ -2,7 +2,6 @@ import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
-import pandas as pd
 from src.data_loader import load_excel
 from src.preprocessing import preprocess_data
 from src.kpi_calculator import plant_level_kpis, customer_level_kpis, grade_level_kpis
